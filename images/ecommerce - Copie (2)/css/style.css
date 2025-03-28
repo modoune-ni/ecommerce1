@@ -1,0 +1,576 @@
+<!--debut header-->
+*{
+    padding: 0;
+    margin: 0;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    list-style: none;
+    
+   
+}
+
+.header-global{
+    background-image: url('../images/ecran.png');
+    height: 100vh;
+    display: flex; 
+    justify-content: space-between;
+    padding: 2%;
+}
+.logo img{
+    width: 60%;
+}
+
+.header-global nav a .connexion{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    list-style: none;
+}
+nav a{
+    color: white;
+    margin: 5px;
+    
+   
+}
+.connexion a{
+    color: white;
+    margin: 5px; 
+}
+
+.connexion select{
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button{
+    color: rgba(255, 255, 255, 0.637);
+}
+.connexion button{
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+.connexion button:hover{
+    background-color: orange;
+    border-radius: 30px;
+}
+
+.header-content{
+   
+   
+}
+
+.text{
+    text-align: center;
+    margin: auto;
+    margin-top: -500px;
+    color: white;
+}
+.text h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.formulaire{
+    
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    align-items: center;
+    margin-left: 10%;
+    
+}
+
+.main{
+    display: flex;
+    padding-top: 500px;
+    gap: 14px;
+    justify-content: space-between;
+}
+.main h1{
+    color: #333333;
+    font-size: 30px;
+    margin-left: 10%;
+    font-weight: bolder;
+}
+
+.mes-button{
+    display: flex;
+    gap: 10px;
+    width: 20px;
+    height: 10px;
+    margin-right: 114px;
+}
+
+.button-droite{
+    color: orange;
+}
+.button-gauche{
+    color: rgba(255, 255, 255, 0.774);
+}
+
+
+.formulaire .item1 .item2{
+    gap: 10px;
+    justify-content: space-around;
+    
+}
+
+
+.formulaire .form-principale{
+    
+    margin-left: 20px; /* Ajustez la valeur selon vos besoins */
+    display: flex;
+    vertical-align: top;
+}
+
+.formulaire img{
+    align-items: center;
+    width: 12px;
+}
+.part{
+    display: flex;
+    padding-left: 1.8%;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.item1{
+    color: orange;
+    background-color: white;
+    border-radius: 2px;
+}
+.item2{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.747);
+    border-radius:  2px;
+    padding-right: -15px;
+}
+.form-principale{
+    gap: 12px;
+    display: flex;
+    background-color: white;
+    width: 120vh;
+    padding-top: 8px;
+    justify-content: center;
+    border-radius: 2px;
+    position: absolute;
+    margin-top: 5%;
+}
+.form-principale button {
+    margin-right: 50px;
+    width: 70px;
+    height: 50px;
+    align-items: center;
+   
+   
+   
+}
+
+.button:hover{
+    
+
+}
+
+/* fin header */
+
+/*  section 1 */
+.section-1 .card-mere{
+    display: flex;
+    gap: 10px;
+}
+
+.card label {
+    color: orange;
+    justify-content: center;
+    gap: 10px;
+    width: 8%;
+}
+
+.deux label{
+    color: orange;
+    justify-content: center;
+    gap: 10px;
+    width: 8%;
+}
+
+.card p,span {
+    display: flex;
+gap: 10px;
+align-items: center;
+font-weight: bolder;
+color: #333333;
+}
+
+.card span{
+    color: orange;
+}
+.trois label{
+    color: orange;
+    justify-content: center;
+    gap: 10px;
+    width: 8%;
+}
+
+.trois p,span {
+    display: flex;
+gap: 10px;
+align-items: center;
+font-weight: bolder;
+color: #333333;
+}
+
+.trois span{
+    color: orange;
+}
+.quatre label{
+    color: orange;
+    justify-content: center;
+    gap: 10px;
+    width: 8%;
+}
+
+.quatre p,span {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: bolder;
+    color: #333333;
+}
+
+.quatre span{
+    color: orange;
+}
+
+.un p,span{
+display: flex;
+gap: 10px;
+align-items: center;
+font-weight: bolder;
+color: #333333;
+}
+
+.un span{
+    color: orange;
+}
+
+.section2{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding-left: 100px;
+}
+.feuille P{
+    color: #333333;
+    
+}
+.cases{
+    justify-content: center;
+}
+
+.cases h1{
+    color: orange;
+   
+}
+
+.titres{
+    display: flex;
+    gap: 20px;
+}
+
+.para{
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+}
+.section3{
+    margin-top: 70px;
+    background-color: rgb(238, 187, 140);
+    height: 70vh;
+   
+
+}
+
+.care{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+.get-special{
+    background: rgba(255, 255, 255,0.5);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.get-special button{
+    margin-left: 80px;
+}
+.care h1{
+    margin-bottom: 60px;
+}
+.care2{
+    margin-top: 60px;
+    margin-right: 100px;
+}
+
+
+    
+    
+   
+
+button{
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.section4{
+    padding-top: 40px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}  
+
+.section4 h1{
+    font-size: 20px;
+}
+.section5{
+    padding-top: 40px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.section5 .petti-sect5{
+    display: grid;
+   
+}
+.petti-sect5 span{
+    color: #333333;
+    font-size: 15px;
+    font-weight: 20;
+}
+.petti-sect5 h5{
+    color: #0c0505fd;
+    font-weight: 50px;
+}
+
+.section5 .petti-sect5 button{
+    color: orange;
+    border-radius: 10px;
+    background-color: white;
+    height: 4vh;
+    width: 14vh;
+    margin-left: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.section6{
+    
+    background-color: rgb(238, 187, 140);
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    margin: 100px;
+}
+.section6 h2{
+    padding-bottom: 20px;
+    
+}
+
+.section6 h1{
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+
+}
+.form-container {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
+    gap: 20px; /* Espace entre les éléments */
+    
+    background-color: #FFE1B3; /* Couleur de fond similaire à l'image */
+    border-radius: 10px;
+}
+
+
+
+.form-container label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.form-container input{
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+}
+.form-container select{
+    width: 250px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.form-container button{
+    color: white;
+    background-color: orange;
+    width: 100px;
+    height: 30px;
+    margin-left: 200px;
+   
+    
+}
+
+.photo-velo{
+    padding-left: 30px;
+}
+
+.section7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.section7 img{
+    text-align: center;
+    padding-left: 150px;
+
+}
+
+.deuxieme button{
+    margin-left: 500px;
+  
+    
+}
+.deuxiem{
+    padding-bottom: 40Ppx;
+}
+.premier{
+    padding-bottom: 60px;
+
+}
+.fin{
+    background-color: rgba(0, 0, 0, 0.795);
+    width: 100%;
+    height: 50VH;
+}
+.fin h4{
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 12px;
+    font-weight: 100;
+}
+.fin img{
+    padding-top: 30px;
+    width: 70px;
+    padding-left: 25px;
+}
+.barre{
+    display: flex;
+    height: 25vh;
+    padding-left: 20px;
+}
+.bare-service {
+    color: white;
+    margin: 20px;
+    justify-content: space-between;
+}
+.bare-service h6{
+    font-size: 15px;
+}
+.bare-service span{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+.Home{
+    color: white;
+    margin: 20px;
+    justify-content: space-between;
+}
+.Home h6{
+    font-size: 15px;
+}
+.Home span{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+.Help{
+    color: white;
+    margin: 20px;
+    justify-content: space-between;
+}
+.Help h6{
+    font-size: 15px;
+}
+.Help span{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+.Home span{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+.Contacts{
+
+    color: white;
+    margin: 20px;
+    justify-content: space-between;
+}
+.Contacts h6{
+    font-size: 15px;
+}
+.Contacts img{
+    width: 15px;
+    padding-top: 10px;
+}
+.Contacts span{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    
+}
+.Social-Media{
+    color: white;
+    margin: 20px;
+    justify-content: space-between;
+}
+.Social-Media h6{
+    font-size: 15px;  
+}
+.Social-Media img{
+    width: 20px;
+    padding-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

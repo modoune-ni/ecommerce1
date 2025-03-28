@@ -1,0 +1,306 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    list-style: none;
+    
+   
+}
+
+.header-global{
+    background-image: url('../images/bord.png');
+    height: 100vh;
+    display: flex; 
+    justify-content: space-between;
+    padding: 2%;
+}
+.logo img{
+    width: 60%;
+}
+
+.header-global nav a .connexion{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    list-style: none;
+}
+nav a{
+    color: white;
+    margin: 5px;
+    
+   
+}
+.connexion a{
+    color: white;
+    margin: 5px; 
+}
+
+.connexion select{
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button{
+    color: rgba(255, 255, 255, 0.637);
+}
+.connexion button{
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+.connexion button:hover{
+    background-color: orange;
+    border-radius: 30px;
+}
+
+.header-content{
+     
+}
+
+.text{
+    text-align: center;
+    margin: auto;
+    margin-top: -500px;
+    color: white;
+}
+.text h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.text p{
+    font-size: 15px;
+    font-weight: 100px;
+}
+
+.text button{
+    color: white;
+   margin-top: 20px;
+    width: 278px;
+    height: 55;
+    gap: 10px;
+    border-radius: 50px;
+    border-width: 1.5px;
+    padding-top: 14px;
+    padding-right: 24px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+    border: 1.5px solid #FFFFFF;
+    background: transparent;
+    cursor: pointer;
+    
+}
+.section1{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 400px;
+}
+
+.photo-sourriant img{
+    width: 350px;
+}
+
+.feuille P{
+    color: #333333; 
+}
+.cases{
+    justify-content: center;
+}
+
+.cases h1{
+    color: orange;
+   
+}
+
+.titres{
+    display: flex;
+    gap: 20px;
+}
+
+.para{
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+}
+.section2{
+    background-color: hwb(16 31% 0% / 0.815);
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #FFFFFF, #FFFFFF);
+    padding: 20px;
+}
+.carre{
+    background-color: rgba(238, 161, 133, 0.829);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.)
+
+}
+
+.image{
+    font-size: 40px;
+    color: #ff914d;
+    margin-bottom: 15px;
+    
+    
+}
+
+.titre{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section3{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.section3 img{
+    text-align: center;
+    padding-left: 150px;
+}
+.section3 P{
+    color: #333333;
+    padding-top: 15px;
+}
+.section3 h5{
+    color: #333333;
+    padding-left: 150px;
+}
+.deuxiem{
+    padding-bottom: 40px;
+}
+
+
+.premier{
+    padding-bottom: 60px;
+
+}
+.fin{
+    background-color: rgba(0, 0, 0, 0.795);
+    width: 100%;
+    height: 50VH;
+}
+.fin h4{
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 12px;
+    font-weight: 100px;
+}
+.fin{
+    background-color: rgba(0, 0, 0, 0.795);
+    width: 100%;
+    height: 50VH;
+}
+.fin h4{
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 12px;
+    font-weight: 100;
+}
+.fin img{
+    padding-top: 30px;
+    width: 70px;
+    padding-left: 25px;
+}
+.barre{
+    display: flex;
+    height: 25vh;
+    padding-left: 20px;
+}
+.bare-service {
+    color: white;
+    margin: 20px;
+    justify-content: space-between;
+}
+.bare-service h6{
+    font-size: 15px;
+}
+.bare-service span{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+.Home{
+    color: white;
+    margin: 20px;
+    justify-content: space-between;
+}
+.Help{
+    color: white;
+    margin: 20px;
+    justify-content: space-between;
+}
+.Help h6{
+    font-size: 15px;
+}
+.Help span{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+.Home span{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+.Contacts{
+
+    color: white;
+    margin: 20px;
+    justify-content: space-between;
+}
+.Contacts h6{
+    font-size: 15px;
+}
+.Contacts img{
+    width: 15px;
+    padding-top: 10px;
+}
+.Contacts span{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;  
+}
+
+.Social-Media{
+    color: white;
+    margin: 20px;
+    justify-content: space-between;
+}
+.Social-Media h6{
+    font-size: 15px;  
+}
+.Social-Media img{
+    width: 20px;
+    padding-top: 10px;
+
+}
+
+
+
+
+
+
+   

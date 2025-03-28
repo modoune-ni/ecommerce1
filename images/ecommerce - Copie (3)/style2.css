@@ -1,0 +1,116 @@
+<!--debut header-->
+*{
+    padding: 0;
+    margin: 0;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    list-style: none;
+    
+   
+}
+
+.header-global{
+    background-color: white;
+    
+    display: flex; 
+    justify-content: space-between;
+    padding: 2%;
+}
+.logo img{
+    width: 60%;
+}
+
+.header-global nav a .connexion{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    list-style: none;
+}
+nav a{
+    color: white;
+    margin: 5px;
+    
+   
+}
+.connexion a{
+    color: white;
+    margin: 5px; 
+}
+
+.connexion select{
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button{
+    color: rgba(255, 255, 255, 0.637);
+}
+.connexion button{
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+.connexion button:hover{
+    background-color: orange;
+    border-radius: 30px;
+}
+
+/* debut corps */
+.main h1{
+    margin-bottom: px;
+    color: #333333;
+    font-size: 30px;
+    margin-left: 10%;
+    font-weight: bolder;
+}
+/* fin corps */
+/* fin herader */
+
+/* section1 */
+.section-1 .card-mere{
+    display: flex;
+    gap: 10px;
+    padding-left: 60px;
+}
+
+.card label {
+    color: orange;
+    justify-content: center;
+    gap: 10px;
+    width: 8%;
+}
+
+.deux label{
+    color: orange;
+    justify-content: center;
+    gap: 10px;
+    width: 8%;
+}
+
+.card p,span {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: bolder;
+    color: #333333;
+}
+
+.card h5{
+    width: 128px;
+    height: 25px;
+    gap: 10px;
+    color: orange;
+
+}
+
+.card span{
+    color: orange;
+}
+.trois label{
+    color: orange;
+    justify-content: center;
+    gap: 10px;
+    width: 8%;
+}
+/* fin section1 */

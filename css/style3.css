@@ -1,0 +1,106 @@
+<!--debut header-->
+*{
+    padding: 0;
+    margin: 0;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    list-style: none;
+    
+   
+}
+
+.header-global{
+    background-color: white;
+    height: 50px;
+    display: flex; 
+    justify-content: space-between;
+    padding: 2%;
+}
+.logo img{
+    width: 60%;
+}
+
+.header-global nav a .connexion{
+    align-items: center;
+    justify-content: center;
+    color: black;
+    list-style: none;
+}
+nav a{
+    color: black;
+    margin: 5px;
+    text-decoration: none;
+    
+   
+}
+.connexion a{
+    color: black;
+    margin: 5px; 
+    text-decoration: none;
+}
+
+.connexion select{
+    opacity: 12%;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button{
+    color: rgba(255, 255, 255, 0.637);
+}
+.connexion button{
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+.connexion button:hover{
+    background-color: orange;
+    border-radius: 30px;
+}
+.mon-reve{
+    background-color: rgb(238, 187, 140);
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    margin: 100px;
+}
+
+.petit-parenthese {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
+    gap: 20px; /* Espace entre les éléments */
+    
+    background-color: #FFE1B3; /* Couleur de fond similaire à l'image */
+    border-radius: 10px;
+}
+
+
+
+.petit-parenthese label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.petit-parenthese input{
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+}
+.petit-parenthese select{
+    width: 250px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.petit-parenthese button{
+    color: white;
+    background-color: orange;
+    width: 100px;
+    height: 30px;
+    margin-left: 200px;  
+}
+
+
+

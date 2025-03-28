@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/julia-solonina-Csja8O0sbOw-unsplash\ 1.png) ; 
+    background-size: cover;
+    background-position: center;
+}
+
+.logo img {
+    width: 80px;
+ }
+ 
+ 
+ .header .header_top  {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 12vh;
+     background-color: rgba(255, 255, 255, 0.26);
+     padding:5px 5%;
+     margin-bottom: 50px;
+ 
+ }
+ 
+ .header_top nav a {
+     color: rgba(255, 255, 255, 0.979);
+     font-size: 20px;
+ }
+
+
+

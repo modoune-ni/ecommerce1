@@ -1,0 +1,60 @@
+<!--debut header-->
+*{
+    padding: 0;
+    margin: 0;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    list-style: none;
+    
+   
+}
+
+.header-global{
+    background-color: white;
+    
+    display: flex; 
+    justify-content: space-between;
+    padding: 2%;
+}
+.logo img{
+    width: 60%;
+}
+
+.header-global nav a .connexion{
+    align-items: center;
+    justify-content: center;
+    color: black;
+    list-style: none;
+}
+nav a{
+    color: black;
+    margin: 5px;
+    text-decoration: none;
+    
+   
+}
+.connexion a{
+    color: black;
+    margin: 5px; 
+    text-decoration: none;
+}
+
+.connexion select{
+    opacity: 12%;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button{
+    color: rgba(255, 255, 255, 0.637);
+}
+.connexion button{
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+.connexion button:hover{
+    background-color: orange;
+    border-radius: 30px;
+}

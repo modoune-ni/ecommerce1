@@ -1,0 +1,402 @@
+<!--debut header-->
+*{
+    padding: 0;
+    margin: 0;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    list-style: none;
+    
+   
+}
+
+.header-global{
+    background-color: white;
+    
+    display: flex; 
+    justify-content: space-between;
+    padding: 2%;
+}
+.logo img{
+    width: 60%;
+}
+
+.header-global nav a .connexion{
+    align-items: center;
+    justify-content: center;
+    color: black;
+    list-style: none;
+}
+nav a{
+    color: black;
+    margin: 5px;
+    text-decoration: none;
+    
+   
+}
+.connexion a{
+    color: black;
+    margin: 5px; 
+    text-decoration: none;
+}
+
+.connexion select{
+    opacity: 12%;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button{
+    color: rgba(255, 255, 255, 0.637);
+}
+.connexion button{
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+.connexion button:hover{
+    background-color: orange;
+    border-radius: 30px;
+}
+
+
+/* debut corps */
+.main h1{
+    margin-bottom: px;
+    color: #333333;
+    font-size: 30px;
+    margin-left: 10%;
+    font-weight: bolder;
+}
+/* fin corps */
+/* fin herader */
+
+/* section1 */
+.section-1 .card-mere{
+    display: flex;
+    gap: 10px;
+    padding-left: 60px;
+}
+
+.card label {
+    color: orange;
+    justify-content: center;
+    gap: 10px;
+    width: 8%;
+}
+
+.deux label{
+    color: orange;
+    justify-content: center;
+    gap: 10px;
+    width: 8%;
+}
+
+.card p,span {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: bolder;
+    color: #333333;
+}
+
+.card h5{
+    width: 128px;
+    height: 25px;
+    gap: 10px;
+    color: orange;
+
+}
+
+.card span{
+    color: orange;
+}
+.trois label{
+    color: orange;
+    justify-content: center;
+    gap: 10px;
+    width: 8%;
+}
+/* fin section1 */
+/* section2 */
+.section-2 .card-mere{
+    display: flex;
+    gap: 10px;
+    padding-left: 60px;
+}
+
+.card label {
+    color: orange;
+    justify-content: center;
+    gap: 10px;
+    width: 8%;
+}
+
+.deux label{
+    color: orange;
+    justify-content: center;
+    gap: 10px;
+    width: 8%;
+}
+
+.card p,span {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: bolder;
+    color: #333333;
+}
+
+.card h5{
+    width: 128px;
+    height: 25px;
+    gap: 10px;
+    color: orange;
+
+}
+.card img{
+
+}
+
+.card span{
+    color: orange;
+}
+.trois label{
+    color: orange;
+    justify-content: center;
+    gap: 10px;
+    width: 8%;
+}
+/* fin section2 */
+/* debut section3 */
+.section3{
+    padding-top: 40px;
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    padding-left: -100px;
+}  
+
+.section3 h1{
+    font-size: 20px;
+}
+.section3 h5{
+    color: orange;
+}
+.point h1{
+    margin-bottom: px;
+    color: #333333;
+    font-size: 30px;
+    padding-left: 40Px;
+    font-weight: bolder;
+    margin-bottom: 450px;
+
+}
+/* fin section3 */
+/* debut section4 */
+.section4{
+    padding-top: 40px;
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    padding-bottom: 200px;
+}  
+
+.section4 h1{
+    font-size: 20px;
+}
+.section4 h5{
+    color: orange;
+}
+/* fin section 4 */
+/* debut section5 */
+
+.section5{
+    
+    background-color: rgb(238, 187, 140);
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    margin: 100px;
+}
+.section5 h2{
+    padding-bottom: 20px;
+    
+}
+
+.section5 h1{
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+
+}
+.form-container {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
+    gap: 20px; /* Espace entre les éléments */
+    
+    background-color: #FFE1B3; /* Couleur de fond similaire à l'image */
+    border-radius: 10px;
+}
+
+
+
+.form-container label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.form-container input{
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+}
+.form-container select{
+    width: 250px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.form-container button{
+    color: white;
+    background-color: orange;
+    width: 100px;
+    height: 30px;
+    margin-left: 200px;  
+}
+
+.photo-velo{
+    padding-left: 30px;
+}
+/* fin section5 */
+.section6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.section6 img{
+    text-align: center;
+    padding-left: 150px;
+}
+.section6 h5{
+    padding-left: 150px;
+}
+
+.deuxieme button{
+    margin-left: 500px;
+  
+    
+}
+.deuxiem{
+    padding-bottom: 40Ppx;
+}
+.premier{
+    padding-bottom: 60px;
+
+}
+/* debut section 6 */
+/* footer */
+.fin{
+    background-color: rgba(0, 0, 0, 0.795);
+    width: 100%;
+    height: 50VH;
+}
+.fin h4{
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 12px;
+    font-weight: 100;
+}
+.fin img{
+    padding-top: 30px;
+    width: 70px;
+    padding-left: 25px;
+}
+.barre{
+    display: flex;
+    height: 25vh;
+    padding-left: 20px;
+}
+.bare-service {
+    color: white;
+    margin: 20px;
+    justify-content: space-between;
+}
+.bare-service h6{
+    font-size: 15px;
+}
+.bare-service span{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+.Home{
+    color: white;
+    margin: 20px;
+    justify-content: space-between;
+}
+.Home h6{
+    font-size: 15px;
+}
+.Home span{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+.Help{
+    color: white;
+    margin: 20px;
+    justify-content: space-between;
+}
+.Help h6{
+    font-size: 15px;
+}
+.Help span{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+.Home span{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+.Contacts{
+
+    color: white;
+    margin: 20px;
+    justify-content: space-between;
+}
+.Contacts h6{
+    font-size: 15px;
+}
+.Contacts img{
+    width: 15px;
+    padding-top: 10px;
+}
+.Contacts span{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    
+}
+.Social-Media{
+    color: white;
+    margin: 20px;
+    justify-content: space-between;
+}
+.Social-Media h6{
+    font-size: 15px;  
+}
+.Social-Media img{
+    width: 20px;
+    padding-top: 10px;
+
+}
+/* fin de footer */
