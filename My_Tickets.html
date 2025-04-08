@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page de Mes_Tickets</title>
+    <link rel="stylesheet" href="style10.css">
+</head>
+<body>
+    <header>
+        <div class="header-global">
+            <div class="logo">
+                <img src="images/logo (2).png" alt="">
+            </div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="About Us.html">About Us</a>
+                <a href="Tour Packages.html">Tour Packages</a>
+                <a href="Contact Us.html">Contact Us</a>
+            </nav>
+            <div class="connexion">
+                <select id="Eng">
+                    <option value="">Eng</option>
+                </select>
+            </div>
+            <?php
+        // Démarrer la session pour accéder aux infos utilisateur
+        session_start();
+
+    // Exemple : utilisateur connecté
+    $_SESSION['username'] = 'Eng'; // Ceci est juste un exemple
+    ?>
+
+    <!-- Bootstrap pour le style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <div class="dropdown text-end">
+        <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="user" width="32" height="32" class="rounded-circle">
+    <?php echo htmlspecialchars($_SESSION['username']); ?>
+  </a>
+  <ul class="dropdown-menu text-small">
+    <li><a class="dropdown-item" href="Ticket.html">My Tickets</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="logout.php">Logout</a></li>
+  </ul>
+</div>
+
+    <!-- Bootstrap JS pour le menu déroulant -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
+</body>
+</html>

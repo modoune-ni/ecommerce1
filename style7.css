@@ -1,0 +1,172 @@
+<!--debut header-->
+*{
+    padding: 0;
+    margin: 0;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    list-style: none;
+    
+   
+}
+
+.header-global{
+    background-image: url('../images/ecran.png');
+    height: 100vh;
+    display: flex; 
+    justify-content: space-between;
+    padding: 2%;
+    opacity: 80%;
+}
+.logo img{
+    width: 60%;
+}
+
+.header-global nav a .connexion{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    list-style: none;
+}
+nav a{
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+    
+   
+}
+.connexion a{
+    color: white;
+    margin: 5px; 
+    text-decoration: none;
+}
+
+.connexion select{
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button{
+    color: rgba(255, 255, 255, 0.637);
+}
+.connexion button{
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+.connexion button:hover{
+    background-color: orange;
+    border-radius: 30px;
+}
+
+
+
+.text{
+    text-align: center;
+    margin: auto;
+    margin-top: -500px;
+    color: white;
+}
+.text h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.formulaire{
+    
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    align-items: center;
+    margin-left: 10%;
+    
+}
+
+.main{
+    display: flex;
+    padding-top: 500px;
+    gap: 14px;
+    justify-content: space-between;
+}
+.main h1{
+    color: #333333;
+    font-size: 30px;
+    margin-left: 10%;
+    font-weight: bolder;
+}
+
+.mes-button{
+    display: flex;
+    gap: 10px;
+    width: 20px;
+    height: 10px;
+    margin-right: 114px;
+}
+
+.button-droite{
+    color: orange;
+}
+.button-gauche{
+    color: rgba(255, 255, 255, 0.774);
+}
+
+
+.formulaire .item1 .item2{
+    gap: 10px;
+    justify-content: space-around;
+    
+}
+
+
+.formulaire .form-principale{
+    
+    margin-left: 20px; /* Ajustez la valeur selon vos besoins */
+    display: flex;
+    vertical-align: top;
+}
+
+.formulaire img{
+    align-items: center;
+    width: 12px;
+}
+.part{
+    display: flex;
+    padding-left: 1.8%;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.item1{
+    color: orange;
+    background-color: white;
+    border-radius: 2px;
+}
+.item2{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.747);
+    border-radius:  2px;
+    padding-right: -15px;
+}
+.form-principale{
+    gap: 12px;
+    display: flex;
+    background-color: white;
+    width: 120vh;
+    padding-top: 8px;
+    justify-content: center;
+    border-radius: 2px;
+    position: absolute;
+    margin-top: 5%;
+}
+.form-principale button {
+    margin-right: 50px;
+    width: 70px;
+    height: 50px;
+    align-items: center;
+   
+   
+   
+}

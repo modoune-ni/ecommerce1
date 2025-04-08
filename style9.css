@@ -1,4 +1,4 @@
-/* header */
+<!--debut header-->
 *{
     padding: 0;
     margin: 0;
@@ -46,121 +46,15 @@ nav a{
     text-decoration: none;
     cursor: pointer;
 }
-.button{
-    color: rgba(255, 255, 255, 0.637);
-}
-.connexion button{
-    color: white;
-    height: 30px;
-    cursor: pointer;
-}
-.connexion button:hover{
-    background-color: orange;
-    border-radius: 30px;
-}
-/* fin de header */
 
-/* debut section1 */
-.section-principal{
-    background-color: hsla(16, 82%, 69%, 0.863);
-    width: 200vh;
-    height: 60vh;
-    display: flex;
-    justify-content: space-around;
-}
+/* debut du section */
 
-.section-principal .first1{
-    display: grid;
-    margin: 6%;
-    color: black;
-    font-size: 14px;
-    font-weight: 100;
-}
-.first1{
-    margin-top: 30%;
-    margin-bottom: 40%;
-}
-
-.first1 .cadre{
-    background-color: #FA8B02
-    
-}
-.first1 .cadre{
-    width: 45;
-    height: 10;
-}
-
-/* debut du formulaire section1 */
-.form-container{
-    background-color: #ffffff31;
-    width: 60vh;
-    height: 45vh;
-    margin: 3%;
-    border-radius: 23px;
-    padding: 25px;
-}
-
-form{
-    margin: 4%;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    align-items: center;
-}
-
-label{
-    width: 50vh;
-    margin: 15px;
-    margin-right: 20px;
-    gap: 20%;
-    border-radius: 4%;
-}
-.cliquer{
-    margin: 7%;
-    margin-left: 25%;  
-}
-button{
-    color: white;
-    background-color: orange;
-    border-radius: 14px;
-}
-button:hover{
-    background-color: orange;
-    border-radius: 10px;
-}
-input{
-    width: 20vh;
-    margin: 20%;
-    opacity: 10px;
-
-}
-/* fin du formulaire section1 */
-
-/* fin section1 */
-/* debut du setion1 */
-
-
-.petit-img{
-    position: absolute;
-    top: 110%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-} 
-.img-principal{
-    height: 80vh;
-}
-/* .petit-img{
-    align-items: center;
-    padding-left: 50%;
-    padding-: 20%;
-} */
-/* fin du section2 */
-/* /*debut de footer */
 /* footer */
 .fin{
     background-color: rgba(0, 0, 0, 0.795);
-    width: 100%;
+    width: 82%;
     height: 50VH;
+    margin-left: 9%;
 }
 .fin h4{
     color: white;
@@ -257,4 +151,5 @@ input{
 
 }
 /* fin de footer */
-/* fin de footer */
+
+

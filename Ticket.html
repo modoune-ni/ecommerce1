@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de Tickets</title>
+    <link rel="stylesheet" href="style9.css">
+</head>
+<body>
+    <header>
+        <div class="header-global">
+            <div class="logo">
+                <img src="images/logo (2).png" alt="">
+            </div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="About Us.html">About Us</a>
+                <a href="Tour Packages.html">Tour Packages</a>
+                <a href="Contact Us.html">Contact Us</a>
+            </nav>
+            <div class="connexion">
+                <select id="Eng">
+                    <option value="">Eng</option>
+                </select>
+            </div>
+            <?php
+        // Démarrer la session pour accéder aux infos utilisateur
+        session_start();
+
+    // Exemple : utilisateur connecté
+    $_SESSION['username'] = 'Eng'; // Ceci est juste un exemple
+    ?>
+
+    <!-- Bootstrap pour le style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <div class="dropdown text-end">
+        <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="user" width="32" height="32" class="rounded-circle">
+    <?php echo htmlspecialchars($_SESSION['username']); ?>
+  </a>
+  <ul class="dropdown-menu text-small">
+    <li><a class="dropdown-item" href="My_Tickets.html">My Tickets</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="logout.php">Logout</a></li>
+  </ul>
+</div>
+
+    <!-- Bootstrap JS pour le menu déroulant -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
+
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<div class="container d-flex flex-column align-items-center justify-content-center text-center" style="height: 80vh;">
+  <img src="images/Trip-pana 1.png" alt="" class="img-fluid" style="max-width: 300px;">
+  <p class="text-muted mt-3">You don't have any tickets yet. Start planning your next trip!</p>
+</div>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<div class="container my-5">
+  <h3 class="fw-bold">Tour Packages</h3>
+  <div class="row row-cols-1 row-cols-md-4 g-4 mt-3">
+
+    <!-- Card 1 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/Rectangle 16 (3).png" class="card-img-top rounded-3" alt="Lucca Bike Tour">
+        <div class="card-body">
+          <h5 class="card-title">Lucca Bike Tour</h5>
+          <p class="card-text">A tour of the city and its surroundings led by a professional guide.</p>
+          <a href="#" class="text-warning text-decoration-none">Read More →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/Rectangle 16.png" class="card-img-top rounded-3" alt="Wine tasting in Tuscany">
+        <div class="card-body">
+          <h5 class="card-title">Wine tasting in Tuscany</h5>
+          <p class="card-text">Part tasting, part scenery, all wonderful.</p>
+          <a href="#" class="text-warning text-decoration-none">Read More →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/Rectangle 16 (1).png" class="card-img-top rounded-3" alt="Cinque Terre Tour">
+        <div class="card-body">
+          <h5 class="card-title">Cinque Terre Tour</h5>
+          <p class="card-text">Explore 5 coastal towns and enjoy the sea breeze.</p>
+          <a href="#" class="text-warning text-decoration-none">Read More →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/Rectangle 16 (2).png" class="card-img-top rounded-3" alt="Siena and Surroundings">
+        <div class="card-body">
+          <h5 class="card-title">Siena and Surroundings</h5>
+          <p class="card-text">Visit the beautiful towns and tracks that surround it, a real experience.</p>
+          <a href="#" class="text-warning text-decoration-none">Read More →</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+    <div class="fin">
+        <img src="images/logo (2).png" alt="">
+        <div class="barre">
+            <div class="bare-service">
+                <h6>Service</h6>
+                <span>Bik and Rickshaws rental  <br></span>
+                <span>Guided Tours of Lucca <br></span>
+                <span>Guided Bike Tour of Lucca <br></span>
+                <span>Trip In The Tuscan Hills <br></span>
+                <span>Transportation With Luxury Cars <br></span>
+                <span>Wine Tours Ey Bus With Guide</span>
+            </div>
+            <div class="Home">
+                <h6>Home</h6>
+                <span>Home</span><br>
+                <span>About Us</span><br>
+                <span>Tour Packages</span><br>
+            </div>
+            <div class="Help">
+                <h6>Help</h6><br>
+                <span>Terms of Use</span><br>
+                <span>Provicy Policy </span><br>
+            </div>
+            <div class="Contacts">
+                <h6>Contacts</h6>
+                 <span><img src="images/Vector (2).png" alt="">Piazza Napoleone, Lucca, Tuscany <br></span>
+                <span><img src="images/clarity_phone-handset-solid.png" alt="">	+39 346 368 5708 <br></span>
+                <span><img src="images/fluent_mail-16-filled.png" alt="">italiainlimo@gmail.com <br></span>
+            </div>
+            <div class="Social-Media">
+                <h6>Social Media</h6>
+                <img src="images/ant-design_twitter-circle-filled.png" alt="">
+                <img src="images/Vector (3).png" alt="">
+                <img src="images/Subtract.png" alt="">
+            </div>
+        </div>
+        <h4>Copyright © 2022.  All rights reserved.</h4>
+    </div>
+ </footer>
+  <!--footer fin-->
+
+    <!-- <section class="section-1">
+        <div class="card-mere">
+            <div class="card">
+                <img src="images/Rectangle 16 (3).png" alt="" width="250">
+                <h1>Lucca Bike Tour</h1>
+                <p>from<span>34 €</span></p>
+                <label for="Time"><img src="images/system-uicons_calendar-month.png" alt="">EVERY DAY</label>
+                <label for="Time"><img src="images/icon_private tours (2).png" alt="">3-10 PP</label>
+                <P>A tour of the city and its surroundings <br>led by a professional guide...</P>
+                <h5>Read More -></h5>
+            </div>
+            <div class="card">
+                <img src="images/Rectangle 16.png" alt="" width="250">
+                <h1>Wine tasting In Tuscany</h1>
+                <p>from<span>34 €</span></p>
+                <label for="Time"><img src="images/system-uicons_calendar-month.png" alt="">MONDAY</label>
+                <label for="Time"><img src="images/icon_private tours (2).png" alt="">10-30 PP</label>
+                <P>The real magic is here where you can<br>enjoy the best Tuscany Wine and eat...</P>
+                <h5>Read More -></h5>
+            </div>
+            <div class="card">
+                <img src="images/Rectangle 16 (1).png" alt="" width="250">
+                <h1>Cinque Terre Pour</h1>
+                <p>from<span>34 €</span></p>
+                <label for="Time"><img src="images/system-uicons_calendar-month.png" alt="">TO BE DECIDED</label>
+                <label for="Time"><img src="images/icon_private tours (2).png" alt="">10-50 PP</label>
+                <P>Visiting the 5 Terre is a must and you<br>can never go there enought...</P>
+                <h5>Read More -></h5>
+            </div>
+            <div class="card">
+                <img src="images/Rectangle 16 (2).png" alt="" width="250">
+                <h1>Siena and surroundings</h1>
+                <p>from<span>34 €</span></p>
+                <label for="Time"><img src="images/system-uicons_calendar-month.png" alt="">TO BE DECIDED</label>
+                <label for="Time"><img src="images/icon_private tours (2).png" alt="">5-10 PP</label>
+                <P>Visit the beautiful Siena and the Cities<br>that surround to experice...</P>
+                <h5>Read More -></h5>
+            </div>
+        </div>
+    </section> -->
+    <!--fin section1-->
+   
+        
+    </div>
+   
+    
+</body>
+</html>
